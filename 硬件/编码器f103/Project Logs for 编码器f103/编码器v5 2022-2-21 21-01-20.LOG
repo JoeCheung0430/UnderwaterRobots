@@ -1,0 +1,129 @@
+Removed Pin From Net: NetName=3.3V Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=3.3V Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=NetJP2_2 Pin=C15-2
+Removed Pin From Net: NetName=NetJP2_3 Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=3.3V Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=3.3V Pin=C27-2
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=3.3V Pin=C29-2
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=3.3V Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=3.3V Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=3.3V Pin=C32-2
+Removed Pin From Net: NetName=GND Pin=JP8-5
+Removed Pin From Net: NetName=GND Pin=JP8-6
+Removed Pin From Net: NetName=GND Pin=JP8-7
+Removed Pin From Net: NetName=GND Pin=JP8-8
+Removed Pin From Net: NetName=GND Pin=JP8-9
+Removed Pin From Net: NetName=TX Pin=JP9-1
+Removed Pin From Net: NetName=RX Pin=JP9-3
+Removed Pin From Net: NetName=5V Pin=SW1-2
+Removed Pin From Net: NetName=3.3V Pin=U2-4
+Removed Pin From Net: NetName=GND Pin=U4-6
+Removed Pin From Net: NetName=GND Pin=U4-7
+Removed Pin From Net: NetName=GND Pin=U4-8
+Removed Pin From Net: NetName=GND Pin=U4-9
+Removed Pin From Net: NetName=GND Pin=U4-10
+Removed Pin From Net: NetName=GND Pin=U4-11
+Removed Pin From Net: NetName=GND Pin=U4-17
+Removed Pin From Net: NetName=GND Pin=U4-18
+Removed Pin From Net: NetName=GND Pin=U4-19
+Removed Pin From Net: NetName=GND Pin=U4-20
+Removed Pin From Net: NetName=GND Pin=U4-21
+Removed Pin From Net: NetName=GND Pin=U4-22
+Removed Pin From Net: NetName=NetC23_1 Pin=Y3-1
+Removed Pin From Net: NetName=NetC22_1 Pin=Y3-2
+Change Component Comment : Designator=U4 Old Comment=WIFIM-SMD_ESP-12F-ESP8266MOD New Comment=
+Change Component Designator: OldDesignator=C25 NewDesignator=C6
+Change Component Designator: OldDesignator=C27 NewDesignator=C5
+Added Component: Designator=C2(0805C)
+Added Component: Designator=C26(0805C)
+Added Component: Designator=C28(0805C)
+Added Component: Designator=C33(0805C)
+Added Component: Designator=C34(0805C)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_16532.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C15850"; VariantName = "[No Variations]"
+Added Component: Designator=C35(0805C)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_50686.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C49678"; VariantName = "[No Variations]"
+Added Component: Designator=F1(1206R)
+Added Component: Designator=R23(0805R)
+Added Component: Designator=R24(0805R)
+Added Component: Designator=R25(0805R)
+Added Component: Designator=R26(0805R)
+Added Component: Designator=Y2(HC-49US_L11.5-W4.5-P4.88)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_117214.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD-5032_2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C115962"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetJP2_3 Pin=C15-2
+Added Pin To Net: NetName=NetJP2_2 Pin=C16-1
+Added Pin To Net: NetName=3.3V Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=3.3V Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=3.3V Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=3.3V Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=3.3V Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=3.3V Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=3.3V Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=3.3V Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=3.3V Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=GND Pin=C34-1
+Added Pin To Net: NetName=3.3V Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=3.3V Pin=C35-2
+Added Pin To Net: NetName=5V Pin=F1-1
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=RX Pin=JP9-1
+Added Pin To Net: NetName=TX Pin=JP9-3
+Added Pin To Net: NetName=3.3V Pin=R23-1
+Added Pin To Net: NetName=3.3V Pin=R24-1
+Added Pin To Net: NetName=3.3V Pin=R25-2
+Added Pin To Net: NetName=GND Pin=R26-2
+Added Pin To Net: NetName=NetF1_2 Pin=SW1-2
+Added Pin To Net: NetName=3.3V Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U4-15
+Added Pin To Net: NetName=TX Pin=U4-21
+Added Pin To Net: NetName=RX Pin=U4-22
+Added Pin To Net: NetName=NetC22_1 Pin=Y2-1
+Added Pin To Net: NetName=NetC23_1 Pin=Y2-2
+Change Net Name : Old Net Name=NetJP2_2 New Net Name=NetC16_1
+Change Net Name : Old Net Name=NetJP2_3 New Net Name=NetC15_2
+Added Pin To Net: NetName=NetR23_2 Pin=R23-2
+Added Pin To Net: NetName=NetR23_2 Pin=U4-1
+Added Net: Name=NetR23_2
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=U4-3
+Added Net: Name=NetR24_2
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_1 Pin=U4-18
+Added Net: Name=NetR25_1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=U4-16
+Added Net: Name=NetR26_1

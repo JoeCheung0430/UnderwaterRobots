@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\software\MDK5\ARM\ARMCC\Bin'
+Build target 'Target'
+compiling main.c...
+main.c(16): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4160 RO-data=268 RW-data=116 ZI-data=1636  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:00

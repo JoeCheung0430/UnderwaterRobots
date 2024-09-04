@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetJP2_2 Pin=C15-2
+Removed Pin From Net: NetName=NetJP2_3 Pin=C16-1
+Removed Pin From Net: NetName=3.3V Pin=U2-4
+Removed Pin From Net: NetName=NetC23_1 Pin=Y3-1
+Removed Pin From Net: NetName=NetC22_1 Pin=Y3-2
+Change Component Footprint: Designator=JP8 Old Footprint=micro usb New Footprint=MINI_USB
+Added Component: Designator=Y2(SMD-5032_2P)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_117214.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD-5032_2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C115962"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC22_1 Pin=Y2-1
+Added Pin To Net: NetName=NetC23_1 Pin=Y2-2
+Added Member To Class: ClassName=Sheet1 Member=Component Y2 8MHz

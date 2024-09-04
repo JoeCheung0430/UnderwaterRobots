@@ -1,0 +1,10 @@
+Added Component: Designator=Y2(SMD-5032_2P)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_117214.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMD-5032_2P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C115962"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC22_1 Pin=Y2-1
+Added Pin To Net: NetName=NetC23_1 Pin=Y2-2
+Added Member To Class: ClassName=Sheet1 Member=Component Y2 8MHz

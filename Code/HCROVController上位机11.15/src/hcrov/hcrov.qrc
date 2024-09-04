@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="hcrov">
+    <file>img/cam.png</file>
+    <file>img/HC.png</file>
+    <file>img/video.png</file>
+  </qresource>
+</RCC>

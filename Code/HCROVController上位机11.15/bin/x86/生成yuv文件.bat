@@ -1,0 +1,1 @@
+ffmpeg -i v1080.mp4 -s 600x300  2.yuv

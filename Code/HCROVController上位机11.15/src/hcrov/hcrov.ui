@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>hcrovClass</class>
+ <widget class="QWidget" name="hcrovClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1594</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HC ROV</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="hcrov.qrc">
+    <normaloff>:/hcrov/img/HC.png</normaloff>:/hcrov/img/HC.png</iconset>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,9,1">
+   <property name="spacing">
+    <number>5</number>
+   </property>
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="lable_time">
+         <property name="text">
+          <string>状态：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QProgressBar" name="pgb_electric">
+         <property name="value">
+          <number>100</number>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="textVisible">
+          <bool>true</bool>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="invertedAppearance">
+          <bool>false</bool>
+         </property>
+         <property name="textDirection">
+          <enum>QProgressBar::TopToBottom</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="GaugeCompass" name="gaugeCompass" native="true"/>
+       </item>
+       <item>
+        <widget class="GaugePlane" name="gaugePlane" native="true"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_IP">
+           <property name="text">
+            <string>IP:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="line_IP">
+           <property name="text">
+            <string>192.168.3.199</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_port">
+           <property name="text">
+            <string>PORT:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="line_PORT">
+           <property name="text">
+            <string>5000</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btn_connect">
+         <property name="text">
+          <string>
+连接
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lable_depth">
+           <property name="text">
+            <string>Depth：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lable_depth_data">
+           <property name="text">
+            <string>0.0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lable_direction">
+           <property name="text">
+            <string>direction：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="lable_direction_data">
+           <property name="text">
+            <string>0.0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="btn_parameter_set">
+         <property name="text">
+          <string>参数设置</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_light">
+           <property name="text">
+            <string>Light</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="slider_bright">
+           <property name="maximum">
+            <number>500</number>
+           </property>
+           <property name="singleStep">
+            <number>10</number>
+           </property>
+           <property name="pageStep">
+            <number>100</number>
+           </property>
+           <property name="value">
+            <number>300</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_speed">
+           <property name="text">
+            <string>Speed</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSlider" name="slider_velocity">
+           <property name="minimum">
+            <number>0</number>
+           </property>
+           <property name="maximum">
+            <number>5</number>
+           </property>
+           <property name="singleStep">
+            <number>1</number>
+           </property>
+           <property name="pageStep">
+            <number>1</number>
+           </property>
+           <property name="value">
+            <number>0</number>
+           </property>
+           <property name="sliderPosition">
+            <number>0</number>
+           </property>
+           <property name="tracking">
+            <bool>false</bool>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="1,16,10,1">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_information">
+         <property name="text">
+          <string>信息</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="txt_recvbox">
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="txt_sendbox"/>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="btn_clear">
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>清空</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_send">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string>发送</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_6" stretch="2,1">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QWidget" name="view_master" native="true">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="acceptDrops">
+        <bool>true</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(51, 51, 51);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <property name="spacing">
+        <number>2</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="view_sub1" native="true">
+         <property name="acceptDrops">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(51, 51, 51);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="view_sub2" native="true">
+         <property name="acceptDrops">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(51, 51, 51);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_5" stretch="100,51">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btn_add_cam">
+           <property name="text">
+            <string>新增</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_modify_cam">
+           <property name="text">
+            <string>修改</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_del_cam">
+           <property name="text">
+            <string>删除</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QListWidget" name="cam_list">
+         <property name="autoScrollMargin">
+          <number>16</number>
+         </property>
+         <property name="dragEnabled">
+          <bool>true</bool>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>45</width>
+           <height>45</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>camear_test</string>
+          </property>
+          <property name="icon">
+           <iconset resource="hcrov.qrc">
+            <normaloff>:/hcrov/img/cam.png</normaloff>:/hcrov/img/cam.png</iconset>
+          </property>
+          <property name="flags">
+           <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="btn_status">
+         <property name="text">
+          <string>运行状态：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListView" name="list_status"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GaugeCompass</class>
+   <extends>QWidget</extends>
+   <header>gaugecompass.h</header>
+  </customwidget>
+  <customwidget>
+   <class>GaugePlane</class>
+   <extends>QWidget</extends>
+   <header>gaugeplane.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>txt_recvbox</tabstop>
+  <tabstop>line_PORT</tabstop>
+  <tabstop>btn_connect</tabstop>
+  <tabstop>btn_parameter_set</tabstop>
+  <tabstop>slider_bright</tabstop>
+  <tabstop>slider_velocity</tabstop>
+  <tabstop>line_IP</tabstop>
+  <tabstop>txt_sendbox</tabstop>
+  <tabstop>btn_clear</tabstop>
+  <tabstop>btn_send</tabstop>
+  <tabstop>btn_add_cam</tabstop>
+  <tabstop>btn_modify_cam</tabstop>
+  <tabstop>btn_del_cam</tabstop>
+  <tabstop>cam_list</tabstop>
+  <tabstop>list_status</tabstop>
+ </tabstops>
+ <resources>
+  <include location="hcrov.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_connect</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>ConnectOrDis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_send</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>SendMsg()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>322</x>
+     <y>815</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>845</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_clear</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>ClearMsg()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>815</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>859</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_add_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>AddCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1393</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1448</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_modify_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>SetCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1489</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1543</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_del_cam</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>DelCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1585</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1617</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cam_list</sender>
+   <signal>itemDoubleClicked(QListWidgetItem*)</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>SetCam()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1478</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1243</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_parameter_set</sender>
+   <signal>clicked()</signal>
+   <receiver>hcrovClass</receiver>
+   <slot>Parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>315</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>-48</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>StartRecord()</slot>
+  <slot>ConnectOrDis()</slot>
+  <slot>OpenFile()</slot>
+  <slot>PlayOrPause()</slot>
+  <slot>SendMsg()</slot>
+  <slot>GetFilePath()</slot>
+  <slot>VelSliderPress()</slot>
+  <slot>VelSliderRelease()</slot>
+  <slot>BriSliderPress()</slot>
+  <slot>BriSliderRelease()</slot>
+  <slot>videoUrlOpen()</slot>
+  <slot>CameraAddrSet()</slot>
+  <slot>ClearMsg()</slot>
+  <slot>AddCam()</slot>
+  <slot>SetCam()</slot>
+  <slot>DelCam()</slot>
+  <slot>SelectCamera(QModelIndex)</slot>
+  <slot>Parameter()</slot>
+ </slots>
+</ui>

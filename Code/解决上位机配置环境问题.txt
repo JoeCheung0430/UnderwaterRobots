@@ -1,0 +1,8 @@
+1 常规-输出目录 ：..\..\bin\x86
+2 调试-工作目录 ：..\..\bin\x86
+3 vc++目录-包含目录：D:\Qt\Qt5.14.2\5.14.2\msvc2017\include
+4 vc++目录-库目录：D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib
+5 Qt Installation：msvc2017
+6 c/c++-附加包含目录：..\xcodec ；.\ ；D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib
+7 链接器-附加库目录：..\..\lib\x86；D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib
+8 链接器-输入-附加依赖库：xcodec_d.lib；xcodec.lib

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=TX Pin=U4-21
+Removed Pin From Net: NetName=RX Pin=U4-22
+Change Component Comment : Designator=JP8 Old Comment=miniusb New Comment=microusb
+Added Pin To Net: NetName=RX Pin=U4-21
+Added Pin To Net: NetName=TX Pin=U4-22

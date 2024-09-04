@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=NetJP2_2 Pin=C15-2
+Removed Pin From Net: NetName=NetJP2_3 Pin=C16-1
+Removed Pin From Net: NetName=GND Pin=C25-1
+Removed Pin From Net: NetName=3.3V Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=C26-1
+Removed Pin From Net: NetName=3.3V Pin=C26-2
+Removed Pin From Net: NetName=GND Pin=C27-1
+Removed Pin From Net: NetName=3.3V Pin=C27-2
+Removed Pin From Net: NetName=GND Pin=C28-1
+Removed Pin From Net: NetName=3.3V Pin=C28-2
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=3.3V Pin=C29-2
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=3.3V Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=3.3V Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=C32-1
+Removed Pin From Net: NetName=3.3V Pin=C32-2
+Removed Pin From Net: NetName=GND Pin=JP8-5
+Removed Pin From Net: NetName=GND Pin=JP8-6
+Removed Pin From Net: NetName=GND Pin=JP8-7
+Removed Pin From Net: NetName=GND Pin=JP8-8
+Removed Pin From Net: NetName=GND Pin=JP8-9
+Removed Pin From Net: NetName=PC10 Pin=JP9-2
+Removed Pin From Net: NetName=PC11 Pin=JP9-4
+Removed Pin From Net: NetName=GND Pin=SW3-2
+Removed Pin From Net: NetName=GND Pin=SW4-2
+Removed Pin From Net: NetName=3.3V Pin=U2-4
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R14 NewDesignator=R13
+Change Component Designator: OldDesignator=R15 NewDesignator=R14
+Change Component Designator: OldDesignator=R16 NewDesignator=R15
+Change Component Designator: OldDesignator=R17 NewDesignator=R16
+Change Component Designator: OldDesignator=R18 NewDesignator=R17
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Change Component Designator: OldDesignator=R20 NewDesignator=R19
+Change Component Designator: OldDesignator=R21 NewDesignator=R20
+Change Component Designator: OldDesignator=R22 NewDesignator=R21
+Change Component Designator: OldDesignator=R23 NewDesignator=R22
+Added Pin To Net: NetName=3.3V Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=3.3V Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=3.3V Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=3.3V Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=3.3V Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=3.3V Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=3.3V Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=3.3V Pin=C32-1
+Added Pin To Net: NetName=GND Pin=C32-2
+Added Pin To Net: NetName=PC11 Pin=JP9-2
+Added Pin To Net: NetName=PC10 Pin=JP9-4
+Added Pin To Net: NetName=PA8 Pin=U1-41
+Added Pin To Net: NetName=PA9 Pin=U1-42
+Added Pin To Net: NetName=PB6 Pin=U1-58
+Change Net Name : Old Net Name=3.3V New Net Name=VDD
+Change Net Name : Old Net Name=GND New Net Name=VSS

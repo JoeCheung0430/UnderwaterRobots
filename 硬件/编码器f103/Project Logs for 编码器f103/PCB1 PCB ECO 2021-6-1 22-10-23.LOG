@@ -1,0 +1,6 @@
+Added Component: Designator=JP8(micro usb)
+Added Pin To Net: NetName=VCC Pin=JP8-1
+Added Pin To Net: NetName=CH340_D- Pin=JP8-2
+Added Pin To Net: NetName=CH340_D+ Pin=JP8-3
+Added Pin To Net: NetName=GND Pin=JP8-4
+Added Member To Class: ClassName=Sheet1 Member=Component JP8 miniusb

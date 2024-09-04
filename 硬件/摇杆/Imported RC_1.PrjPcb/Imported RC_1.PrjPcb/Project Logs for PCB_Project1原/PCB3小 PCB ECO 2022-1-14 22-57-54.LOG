@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=OSCOUT Pin= -12
+Removed Pin From Net: NetName=OSCIN Pin= -12
+Removed Pin From Net: NetName=VCC_3.3V Pin=C20-1
+Removed Pin From Net: NetName=ADC1 Pin=C20-2
+Removed Pin From Net: NetName=VCC_3.3V Pin=C22-1
+Removed Pin From Net: NetName=ADC4 Pin=C22-2
+Removed Pin From Net: NetName=VCC_3.3V Pin=C23-1
+Removed Pin From Net: NetName=ADC5 Pin=C23-2
+Removed Pin From Net: NetName=VCC_3.3V Pin=C25-1
+Removed Pin From Net: NetName=ADC8 Pin=C25-2
+Change Component Comment : Designator=  Old Comment=CH330 New Comment=CH340
+Change Component Designator: OldDesignator=  NewDesignator=J1
+Change Component Designator: OldDesignator=  NewDesignator=P1
+Change Component Designator: OldDesignator=  NewDesignator=P2
+Change Component Designator: OldDesignator=  NewDesignator=P4
+Change Component Designator: OldDesignator=   NewDesignator=R29
+Change Component Designator: OldDesignator=   NewDesignator=R31
+Change Component Designator: OldDesignator=  NewDesignator=R33
+Change Component Designator: OldDesignator=  NewDesignator=S1
+Change Component Designator: OldDesignator=   NewDesignator=S2
+Change Component Designator: OldDesignator=   NewDesignator=S3
+Change Component Designator: OldDesignator=  NewDesignator=S4
+Change Component Designator: OldDesignator=  NewDesignator=S5
+Change Component Designator: OldDesignator=  NewDesignator=S6
+Change Component Designator: OldDesignator=  NewDesignator=S7
+Change Component Designator: OldDesignator=  NewDesignator=S8
+Change Component Designator: OldDesignator=  NewDesignator=S9
+Change Component Designator: OldDesignator=  NewDesignator=S10
+Change Component Designator: OldDesignator=  NewDesignator=S11
+Change Component Designator: OldDesignator=  NewDesignator=S12
+Change Component Designator: OldDesignator=  NewDesignator=U1
+Change Component Designator: OldDesignator=  NewDesignator=U2
+Change Component Designator: OldDesignator=  NewDesignator=U3
+Change Component Designator: OldDesignator=  NewDesignator=U4
+Change Component Designator: OldDesignator=  NewDesignator=U5
+Change Component Designator: OldDesignator=   NewDesignator=U6
+Change Component Designator: OldDesignator=   NewDesignator=U7
+Change Component Designator: OldDesignator=  NewDesignator=U8
+Change Component Designator: OldDesignator=  NewDesignator=U9
+Change Component Designator: OldDesignator=  NewDesignator=U10
+Change Component Designator: OldDesignator=  NewDesignator=U11
+Change Component Designator: OldDesignator=  NewDesignator=U12
+Change Component Designator: OldDesignator=  NewDesignator=U13
+Change Component Designator: OldDesignator=  NewDesignator=U14
+Change Component Designator: OldDesignator=  NewDesignator=U15
+Change Component Designator: OldDesignator=  NewDesignator=U16
+Change Component Designator: OldDesignator=  NewDesignator=U17
+Change Component Designator: OldDesignator=  NewDesignator=U18
+Change Component Designator: OldDesignator=  NewDesignator=U21
+Change Component Designator: OldDesignator=  NewDesignator=Y1
+Change Component Designator: OldDesignator=  NewDesignator=Y6
+Change component parameters: Designator = "R51" ("R51"); Footprint = "0603R"; UniqueID = "\BYBULGIU" ("\BYBULGIU")
+Change component parameters (AddParameter): Name = "Manufacturer #1"; Value = "IPC SM-782 STD."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PCB DECAL"; Value = "0603R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sim.Analog.Model"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sim.Analog.Order"; Value = "Model$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Sim.Analog.Prefix"; Value = "R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "52.3K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADC1 Pin=C20-1
+Added Pin To Net: NetName=AGND Pin=C20-2
+Added Pin To Net: NetName=ADC4 Pin=C22-1
+Added Pin To Net: NetName=AGND Pin=C22-2
+Added Pin To Net: NetName=ADC5 Pin=C23-1
+Added Pin To Net: NetName=AGND Pin=C23-2
+Added Pin To Net: NetName=ADC8 Pin=C25-1
+Added Pin To Net: NetName=AGND Pin=C25-2
+Added Member To Class: ClassName=PART1 Member=Component C15 CAP-CFR04R-C
+Added Member To Class: ClassName=PART1 Member=Component C16 CAP-CFR04R-C
+Added Member To Class: ClassName=PART1 Member=Component J1 MICRO_USB
+Added Member To Class: ClassName=PART1 Member=Component P1 HDR1X4
+Added Member To Class: ClassName=PART1 Member=Component P2 HDR1X4
+Added Member To Class: ClassName=PART1 Member=Component P4 HDR1X4
+Added Member To Class: ClassName=PART1 Member=Component R29 ROCKER
+Added Member To Class: ClassName=PART1 Member=Component R31 ROCKER
+Added Member To Class: ClassName=PART1 Member=Component R33 RK09K
+Added Member To Class: ClassName=PART1 Member=Component S1 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S2 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S3 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S4 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S5 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S6 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S7 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S8 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S9 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S10 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S11 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component S12 TOGGLE_SW
+Added Member To Class: ClassName=PART1 Member=Component U1 DS0
+Added Member To Class: ClassName=PART1 Member=Component U2 DS0
+Added Member To Class: ClassName=PART1 Member=Component U3 STM32F103C
+Added Member To Class: ClassName=PART1 Member=Component U4 DS0
+Added Member To Class: ClassName=PART1 Member=Component U5 DS0
+Added Member To Class: ClassName=PART1 Member=Component U6 DS0
+Added Member To Class: ClassName=PART1 Member=Component U7 DS0
+Added Member To Class: ClassName=PART1 Member=Component U8 DS0
+Added Member To Class: ClassName=PART1 Member=Component U9 DS0
+Added Member To Class: ClassName=PART1 Member=Component U10 DS0
+Added Member To Class: ClassName=PART1 Member=Component U11 DS0
+Added Member To Class: ClassName=PART1 Member=Component U12 DS0
+Added Member To Class: ClassName=PART1 Member=Component U13 DS0
+Added Member To Class: ClassName=PART1 Member=Component U14 DS0
+Added Member To Class: ClassName=PART1 Member=Component U15 DS0
+Added Member To Class: ClassName=PART1 Member=Component U16 DS0
+Added Member To Class: ClassName=PART1 Member=Component U17 CH340
+Added Member To Class: ClassName=PART1 Member=Component U18 TPS737
+Added Member To Class: ClassName=PART1 Member=Component U21 DS0
+Added Member To Class: ClassName=PART1 Member=Component Y1 XTAL
+Added Member To Class: ClassName=PART1 Member=Component Y6 KEY
+Added Room: Name=PART1

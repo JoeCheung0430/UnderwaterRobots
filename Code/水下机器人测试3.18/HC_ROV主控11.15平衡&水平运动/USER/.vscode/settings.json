@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "motor.h": "c",
+        "sys.h": "c",
+        "stm32f10x.h": "c",
+        "stm32_iic.h": "c",
+        "dataprotocol.h": "c",
+        "w5500control.h": "c"
+    }
+}

@@ -1,0 +1,24 @@
+Added Component: Designator=JP2(HDR1X4)
+Added Component: Designator=JP3(HDR1X4)
+Added Component: Designator=JP4(HDR1X4)
+Added Component: Designator=JP5(HDR1X4)
+Added Pin To Net: NetName=VCC Pin=JP2-1
+Added Pin To Net: NetName=NetJP2_2 Pin=JP2-2
+Added Pin To Net: NetName=NetJP2_3 Pin=JP2-3
+Added Pin To Net: NetName=GND Pin=JP2-4
+Added Pin To Net: NetName=VCC Pin=JP3-1
+Added Pin To Net: NetName=NetC19_1 Pin=JP3-2
+Added Pin To Net: NetName=NetC18_1 Pin=JP3-3
+Added Pin To Net: NetName=GND Pin=JP3-4
+Added Pin To Net: NetName=VCC Pin=JP4-1
+Added Pin To Net: NetName=NetC11_2 Pin=JP4-2
+Added Pin To Net: NetName=NetC12_2 Pin=JP4-3
+Added Pin To Net: NetName=GND Pin=JP4-4
+Added Pin To Net: NetName=VCC Pin=JP5-1
+Added Pin To Net: NetName=NetC24_1 Pin=JP5-2
+Added Pin To Net: NetName=NetC21_1 Pin=JP5-3
+Added Pin To Net: NetName=GND Pin=JP5-4
+Added Member To Class: ClassName=Sheet1 Member=Component JP2 PIN4
+Added Member To Class: ClassName=Sheet1 Member=Component JP3 PIN4
+Added Member To Class: ClassName=Sheet1 Member=Component JP4 PIN4
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 PIN4

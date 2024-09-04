@@ -1,0 +1,95 @@
+Added Component: Designator=U1(PCBComponent_1)
+Add component (AddParameter): Name = "A/D Converter"; Value = "3x12-bit (16 Channel)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit (2 Channel)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "256"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "51"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "48"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "72"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "64-Pin Low Profile Quad Flat Package, 10 x 10 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F103RCT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "497-9033-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "01P4099"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "57P1227"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "511-STM32F103RCT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=PC13 Pin=U1-2
+Added Pin To Net: NetName=PC14 Pin=U1-3
+Added Pin To Net: NetName=PC15 Pin=U1-4
+Added Pin To Net: NetName=NetC9_1 Pin=U1-5
+Added Pin To Net: NetName=NetC10_1 Pin=U1-6
+Added Pin To Net: NetName=NRST Pin=U1-7
+Added Pin To Net: NetName=PC0 Pin=U1-8
+Added Pin To Net: NetName=PC1 Pin=U1-9
+Added Pin To Net: NetName=PC2 Pin=U1-10
+Added Pin To Net: NetName=PC3 Pin=U1-11
+Added Pin To Net: NetName=VSSA Pin=U1-12
+Added Pin To Net: NetName=VDDA Pin=U1-13
+Added Pin To Net: NetName=PA0 Pin=U1-14
+Added Pin To Net: NetName=PA1 Pin=U1-15
+Added Pin To Net: NetName=PA2 Pin=U1-16
+Added Pin To Net: NetName=PA3 Pin=U1-17
+Added Pin To Net: NetName=GND Pin=U1-18
+Added Pin To Net: NetName=3.3V Pin=U1-19
+Added Pin To Net: NetName=PA4 Pin=U1-20
+Added Pin To Net: NetName=PA5 Pin=U1-21
+Added Pin To Net: NetName=PA6 Pin=U1-22
+Added Pin To Net: NetName=PA7 Pin=U1-23
+Added Pin To Net: NetName=PC4 Pin=U1-24
+Added Pin To Net: NetName=PC5 Pin=U1-25
+Added Pin To Net: NetName=PB0 Pin=U1-26
+Added Pin To Net: NetName=PB1 Pin=U1-27
+Added Pin To Net: NetName=BOOT1 Pin=U1-28
+Added Pin To Net: NetName=PB10 Pin=U1-29
+Added Pin To Net: NetName=PB11 Pin=U1-30
+Added Pin To Net: NetName=GND Pin=U1-31
+Added Pin To Net: NetName=3.3V Pin=U1-32
+Added Pin To Net: NetName=PB12 Pin=U1-33
+Added Pin To Net: NetName=PB13 Pin=U1-34
+Added Pin To Net: NetName=PB14 Pin=U1-35
+Added Pin To Net: NetName=PB15 Pin=U1-36
+Added Pin To Net: NetName=PC6 Pin=U1-37
+Added Pin To Net: NetName=PC7 Pin=U1-38
+Added Pin To Net: NetName=PC8 Pin=U1-39
+Added Pin To Net: NetName=PC9 Pin=U1-40
+Added Pin To Net: NetName=PA8 Pin=U1-41
+Added Pin To Net: NetName=PA9 Pin=U1-42
+Added Pin To Net: NetName=PA10 Pin=U1-43
+Added Pin To Net: NetName=PA11 Pin=U1-44
+Added Pin To Net: NetName=PA12 Pin=U1-45
+Added Pin To Net: NetName=SWDIO Pin=U1-46
+Added Pin To Net: NetName=GND Pin=U1-47
+Added Pin To Net: NetName=3.3V Pin=U1-48
+Added Pin To Net: NetName=SWCLK Pin=U1-49
+Added Pin To Net: NetName=PA15 Pin=U1-50
+Added Pin To Net: NetName=PC10 Pin=U1-51
+Added Pin To Net: NetName=PC11 Pin=U1-52
+Added Pin To Net: NetName=PC12 Pin=U1-53
+Added Pin To Net: NetName=PD2 Pin=U1-54
+Added Pin To Net: NetName=PB3 Pin=U1-55
+Added Pin To Net: NetName=PB4 Pin=U1-56
+Added Pin To Net: NetName=PB5 Pin=U1-57
+Added Pin To Net: NetName=PB6 Pin=U1-58
+Added Pin To Net: NetName=PB7 Pin=U1-59
+Added Pin To Net: NetName=BOOT0 Pin=U1-60
+Added Pin To Net: NetName=PB8 Pin=U1-61
+Added Pin To Net: NetName=PB9 Pin=U1-62
+Added Pin To Net: NetName=GND Pin=U1-63
+Added Pin To Net: NetName=3.3V Pin=U1-64
+Added Member To Class: ClassName=Sheet1 Member=Component U1 STM32F103RCT6

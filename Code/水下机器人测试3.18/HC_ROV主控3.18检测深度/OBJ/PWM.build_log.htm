@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.2
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M4, HP Inc., LIC=Z3CSB-2VB77-WIG5K-ZJSS0-ZPP1Q-FJZ0B
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.30.0.0
+Toolchain Path:  D:\software\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.5.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+E:\HCROV20210427\最新12.21\水下机器人测试3.18\HC_ROV主控3.18检测深度\USER\HCROV.uvprojx
+Project File Date:  12/22/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\software\MDK5\ARM\ARMCC\Bin'
+Build target 'HCROV'
+compiling main.c...
+..\HARDWARE\IIC\stm32_iic.h(18): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 201 of "..\HARDWARE\W5500\W5500.h")
+  #define TRUE  0
+..\HARDWARE\IIC\stm32_iic.h(19): warning:  #47-D: incompatible redefinition of macro "FALSE"  (declared at line 202 of "..\HARDWARE\W5500\W5500.h")
+  #define FALSE -1
+..\HARDWARE\system\system.h(23): warning:  #1295-D: Deprecated declaration UpdataPid - give arg types
+  void UpdataPid();
+main.c(8): warning:  #1295-D: Deprecated declaration Work - give arg types
+  void Work();
+main.c: 4 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling myiic.c...
+compiling MS5837.c...
+..\HARDWARE\MS5837\MS5837.c(183): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                OFF2 = 1.5*Aux;
+..\HARDWARE\MS5837\MS5837.c: 1 warning, 0 errors
+compiling stm32_iic.c...
+compiling inv_mpu.c...
+..\HARDWARE\W5500\W5500.h(201): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 18 of "..\HARDWARE\IIC\stm32_iic.h")
+  #define TRUE  0xff
+..\HARDWARE\W5500\W5500.h(202): warning:  #47-D: incompatible redefinition of macro "FALSE"  (declared at line 19 of "..\HARDWARE\IIC\stm32_iic.h")
+  #define FALSE 0x00
+..\HARDWARE\eMPL\inv_mpu.c: 2 warnings, 0 errors
+compiling inv_mpu_dmp_motion_driver.c...
+compiling exti.c...
+compiling send_ypr.c...
+..\HARDWARE\IIC\stm32_iic.h(18): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 201 of "..\HARDWARE\W5500\W5500.h")
+  #define TRUE  0
+..\HARDWARE\IIC\stm32_iic.h(19): warning:  #47-D: incompatible redefinition of macro "FALSE"  (declared at line 202 of "..\HARDWARE\W5500\W5500.h")
+  #define FALSE -1
+..\HARDWARE\Send_ypr\send_ypr.c(78): warning:  #940-D: missing return statement at end of non-void function "Mpu_Init" 
+  }
+..\HARDWARE\Send_ypr\send_ypr.c: 3 warnings, 0 errors
+compiling Balance_PWM.c...
+..\HARDWARE\rov_pid\Balance_PWM.c(30): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        deep = 0.6*EX_Deep + 0.6*(EX_Deep - Last_EX);
+..\HARDWARE\rov_pid\Balance_PWM.c(30): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        deep = 0.6*EX_Deep + 0.6*(EX_Deep - Last_EX);
+..\HARDWARE\rov_pid\Balance_PWM.c(46): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        Double_Pid.Angle_Out = 2 * Angle_Ep + 0.4*Angle_Ei;
+..\HARDWARE\rov_pid\Balance_PWM.c(53): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        Double_Pid.Velocity_Out = 6.5*Velocity_Ep + 0.89*Velocity_Ed;
+..\HARDWARE\rov_pid\Balance_PWM.c(53): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        Double_Pid.Velocity_Out = 6.5*Velocity_Ep + 0.89*Velocity_Ed;
+..\HARDWARE\rov_pid\Balance_PWM.c(85): warning:  #177-D: variable "num"  was declared but never referenced
+        int num,i;
+..\HARDWARE\rov_pid\Balance_PWM.c(85): warning:  #177-D: variable "i"  was declared but never referenced
+        int num,i;
+..\HARDWARE\rov_pid\Balance_PWM.c: 7 warnings, 0 errors
+compiling Timer.c...
+compiling motor.c...
+..\HARDWARE\motor\motor.c(26): warning:  #223-D: function "Get_ypr" declared implicitly
+        Get_ypr();
+..\HARDWARE\motor\motor.c(27): warning:  #223-D: function "Horizontal_Control" declared implicitly
+        Horizontal_Control();
+..\HARDWARE\motor\motor.c(22): warning:  #177-D: variable "i"  was declared but never referenced
+        int i;
+..\HARDWARE\motor\motor.c(48): warning:  #177-D: variable "i"  was declared but never referenced
+        int i=0;
+..\HARDWARE\motor\motor.c: 4 warnings, 0 errors
+compiling system.c...
+..\HARDWARE\IIC\stm32_iic.h(18): warning:  #47-D: incompatible redefinition of macro "TRUE"  (declared at line 201 of "..\HARDWARE\W5500\W5500.h")
+  #define TRUE  0
+..\HARDWARE\IIC\stm32_iic.h(19): warning:  #47-D: incompatible redefinition of macro "FALSE"  (declared at line 202 of "..\HARDWARE\W5500\W5500.h")
+  #define FALSE -1
+..\HARDWARE\system\system.h(23): warning:  #1295-D: Deprecated declaration UpdataPid - give arg types
+  void UpdataPid();
+..\HARDWARE\system\system.c: 3 warnings, 0 errors
+compiling DataProtocol.c...
+..\HARDWARE\DataProtocol\DataProtocol.c(26): warning:  #550-D: variable "data"  was set but never used
+        DataToByte data[MpuDataCount];
+..\HARDWARE\DataProtocol\DataProtocol.c(41): warning:  #177-D: variable "num"  was declared but never referenced
+        u8 num;
+..\HARDWARE\DataProtocol\DataProtocol.c(42): warning:  #177-D: variable "i"  was declared but never referenced
+        int i;
+..\HARDWARE\DataProtocol\DataProtocol.c: 3 warnings, 0 errors
+compiling W5500.c...
+compiling W5500Control.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+assembling startup_stm32f40_41xxx.s...
+compiling misc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_spi.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_dac.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_dma2d.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_flash_ramfunc.c...
+compiling stm32f4xx_iwdg.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+linking...
+Program Size: Code=43356 RO-data=4004 RW-data=392 ZI-data=6304  
+FromELF: creating hex file...
+"..\OBJ\PWM.axf" - 0 Error(s), 27 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\HCROV20210427\最新12.21\水下机器人测试3.18\HC_ROV主控3.18检测深度\USER\RTE
+  D:\software\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

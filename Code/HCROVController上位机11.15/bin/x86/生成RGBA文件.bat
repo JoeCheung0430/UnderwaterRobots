@@ -1,0 +1,1 @@
+ffmpeg -i v1080.mp4 -s 800x400  -pix_fmt rgba 1.rgb

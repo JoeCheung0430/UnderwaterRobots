@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParameterSet</class>
+ <widget class="QWidget" name="ParameterSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>646</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ParameterSet</string>
+  </property>
+  <widget class="QPushButton" name="btn_parameter_send">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>390</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>参数发送</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lab_pid1">
+      <property name="text">
+       <string>Angle_P</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid1">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>2.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lab_pid2">
+      <property name="text">
+       <string>Angle_I</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid2">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.400000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lab_pid3">
+      <property name="text">
+       <string>Velocity_P</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid3">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>6.500000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lab_pid4">
+      <property name="text">
+       <string>Velocity_D</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lab_pid5">
+      <property name="text">
+       <string>Deep_KP</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid5">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>6.500000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Deep_KD</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid4">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.890000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QDoubleSpinBox" name="dsb_pid6">
+      <property name="singleStep">
+       <double>0.010000000000000</double>
+      </property>
+      <property name="value">
+       <double>6.500000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>210</y>
+     <width>201</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>前</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>左</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>右</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>后</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>20</y>
+     <width>361</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lab_motor1">
+      <property name="text">
+       <string>电机1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QSlider" name="S_motor1">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>20000</number>
+      </property>
+      <property name="singleStep">
+       <number>10</number>
+      </property>
+      <property name="pageStep">
+       <number>2000</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="lab_motor_value1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lab_motor2">
+      <property name="text">
+       <string>电机2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QSlider" name="S_motor2">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="lab_motor_value2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lab_motor3">
+      <property name="text">
+       <string>电机3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QSlider" name="S_motor3">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="lab_motor_value3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lab_motor4">
+      <property name="text">
+       <string>电机4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSlider" name="S_motor4">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="lab_motor_value4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="lab_motor5">
+      <property name="text">
+       <string>电机5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QSlider" name="S_motor5">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="lab_motor_value5">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="lab_motor6">
+      <property name="text">
+       <string>电机6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QSlider" name="S_motor6">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="lab_motor_value6">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="lab_motor7">
+      <property name="text">
+       <string>电机7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QSlider" name="S_motor7">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="lab_motor_value7">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="lab_motor8">
+      <property name="text">
+       <string>电机8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QSlider" name="S_motor8">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+      <property name="singleStep">
+       <number>1</number>
+      </property>
+      <property name="pageStep">
+       <number>10</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="lab_motor_value8">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="lab_light1">
+      <property name="text">
+       <string>灯1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QSlider" name="S_light1">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLabel" name="lab_light_value1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="lab_light2">
+      <property name="text">
+       <string>灯2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QSlider" name="S_light2">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+      <property name="tickPosition">
+       <enum>QSlider::NoTicks</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLabel" name="lab_light_value2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="lab_servo1">
+      <property name="text">
+       <string>舵机1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QSlider" name="S_servo1">
+      <property name="minimum">
+       <number>0</number>
+      </property>
+      <property name="maximum">
+       <number>20000</number>
+      </property>
+      <property name="singleStep">
+       <number>10</number>
+      </property>
+      <property name="pageStep">
+       <number>2000</number>
+      </property>
+      <property name="value">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QLabel" name="lab_servo_value1">
+      <property name="text">
+       <string>1500</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="lab_servo2">
+      <property name="text">
+       <string>舵机2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QSlider" name="S_servo2">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2">
+     <widget class="QLabel" name="lab_servo_value2">
+      <property name="text">
+       <string>1500</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="lab_servo3">
+      <property name="text">
+       <string>舵机3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QSlider" name="S_servo3">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="2">
+     <widget class="QLabel" name="lab_servo_value3">
+      <property name="text">
+       <string>1500</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="lab_servo4">
+      <property name="text">
+       <string>舵机4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QSlider" name="S_servo4">
+      <property name="minimum">
+       <number>1500</number>
+      </property>
+      <property name="maximum">
+       <number>2000</number>
+      </property>
+      <property name="singleStep">
+       <number>5</number>
+      </property>
+      <property name="pageStep">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="invertedAppearance">
+       <bool>false</bool>
+      </property>
+      <property name="invertedControls">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2">
+     <widget class="QLabel" name="lab_servo_value4">
+      <property name="text">
+       <string>1500</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>S_motor1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>71</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>206</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>233</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>171</x>
+     <y>216</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>110</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>144</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_light1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_light2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>201</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid1</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid2</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>75</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>465</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid3</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>360</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid4</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>137</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid5</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>416</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dsb_pid6</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>439</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_parameter_send</sender>
+   <signal>clicked()</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>parameter_send()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>510</x>
+     <y>395</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>439</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value1</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>358</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value2</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>358</x>
+     <y>60</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value3</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>86</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value4</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value5</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>146</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value6</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>311</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value7</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>328</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_motor8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_motor_value8</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>336</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_light1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_light_value1</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_light2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_light_value2</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_servo_value1</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>316</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>378</x>
+     <y>319</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_servo_value2</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>362</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_servo_value3</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>326</x>
+     <y>376</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>375</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lab_servo_value4</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>362</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>88</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>113</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>127</x>
+     <y>477</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>142</x>
+     <y>380</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>121</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>S_servo4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>ParameterSet</receiver>
+   <slot>updata_parameter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>414</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>151</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>parameter_send()</slot>
+  <slot>updata_parameter()</slot>
+ </slots>
+</ui>

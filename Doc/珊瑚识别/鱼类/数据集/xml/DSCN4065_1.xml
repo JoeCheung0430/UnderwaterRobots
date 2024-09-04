@@ -1,0 +1,26 @@
+<annotation>
+	<folder>鱼类</folder>
+	<filename>DSCN4065_1.JPG</filename>
+	<path>D:\deeplearning\competition\珊瑚识别\鱼类\鱼类\DSCN4065_1.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>4</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>683</xmin>
+			<ymin>182</ymin>
+			<xmax>817</xmax>
+			<ymax>296</ymax>
+		</bndbox>
+	</object>
+</annotation>
